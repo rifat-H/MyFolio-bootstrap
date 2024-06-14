@@ -1,0 +1,192 @@
+@import 'variable.scss';
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    // common class start
+
+    .cusBtn {
+        padding: 12px 16px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    // common class end
+
+
+    //<!-- services start -->
+    .services {
+        text-align: center;
+
+        .services-left {
+            padding: 80px 10px;
+        }
+    }
+
+    //<!-- services end -->
+
+
+    //<!-- about start -->
+    .about {
+        .about-content {
+            border: none !important;
+        }
+    }
+
+    //<!-- about end -->
+
+    // banner start
+    .banner {
+        h2 {
+            font-size: 25px;
+        }
+
+        h1 {
+            line-height: 40px;
+            font-size: 48px;
+        }
+
+        p {}
+    }
+
+    // banner end
+
+
+    // header start
+    header {
+        nav {
+            ul {
+                margin-top: 15px;
+
+                li {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    // header end
+
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    // common class start
+
+    .cusBtn {
+        padding: 16px 26px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    // common class end
+
+    //<!-- services start -->
+    .services {
+        text-align: center;
+
+        .services-left {
+            padding: 80px 10px;
+        }
+    }
+
+    //<!-- services end -->
+
+
+    //<!-- about start -->
+    .about {
+        .about-content {
+            border: none !important;
+        }
+    }
+
+    //<!-- about end -->
+
+
+    // banner start
+    .banner {
+        h2 {
+            font-size: 28px;
+        }
+
+        h1 {
+            line-height: 30px;
+            font-size: 53px;
+        }
+
+        p {}
+    }
+
+    // banner end
+
+
+    // header start
+    header {
+        nav {
+            ul {
+                margin-top: 15px;
+
+                li {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    // header end
+    // header start
+    header {
+        nav {
+            ul {
+                margin-top: 15px;
+
+                li {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    // header end
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    //<!-- services start -->
+    .services {
+
+        .services-left {
+            padding: 20px 40px;
+        }
+    }
+
+    //<!-- services end -->
+
+    // header start
+    header {
+        nav {
+            ul {
+                margin-top: 15px;
+
+                li {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    // header end
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
